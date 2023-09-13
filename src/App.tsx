@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Greet } from './components/Greet';
+import Heading from './components/Heading';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
 import { Status } from './components/Status';
@@ -25,7 +26,7 @@ function App() {
       <Person name={person}/>
       <PersonList names={personList}/> */}
       {/* <Status status='error'/> */}
-      <Demo/>
+      <Heading>PlaceHolder text</Heading>
     </div>
   );
 }
